@@ -1,0 +1,194 @@
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    /* dessa maneira, 1rem vale 10px para facilitar */
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; */
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+nav a {
+    color: inherit;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.8rem;
+    display: inline-block;
+    color: inherit;
+}
+
+.wrapperContainer {
+    padding-top: 1px;
+}
+
+.wrapperContainer_dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer_light {
+    background-color: #fafafa;
+}
+
+.wrapperContainer_dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer_fixed {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapperContainer_padded {
+    padding-top: 12rem;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.section_title {
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.section_btn {
+    margin: 7rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.nav_header a{
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.nav_header a:hover {
+    background-color: black;
+}
+
+.nav_header ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.wrapperContainer_hero {
+    background-image: linear-gradient(transparent, rgb(245, 245, 44));
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 4rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursos_container {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    /* flex-grow:1;
+    flex-shrink:1;
+    flex-basis:0; */
+    flex: 1;
+}
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content {
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.escola {
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 10rem;
+}
+
+.escola_p {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.contatos_address {
+    text-align: right;
+    font: normal 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
